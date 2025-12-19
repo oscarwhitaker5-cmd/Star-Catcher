@@ -35,9 +35,9 @@ export class ItemCatalogue extends Phaser.Scene {
         this.add.text(75, 665, "'Dummy'", {fontSize: '20px', fill: '#fff'}).setOrigin(0.5);
         this.add.text(245, 626.5, "Dummy can absorb\n\nthree bombs and\n\nis spring loaded", {fontSize: '20px', fill: '#fff'}).setOrigin(0.5);
 
-        this.add.image(425, 600, 'missile').setScale(0.1);
-        this.add.text(425, 665, "'Bill'", {fontSize: '20px', fill: '#fff'}).setOrigin(0.5);
-        this.add.text(605, 626.5, "For 10 seconds, Jeff\n\nwill become an\n\nunstoppable rocket", {fontSize: '20px', fill: '#fff'}).setOrigin(0.5);
+        this.add.image(425, 600, 'curry').setScale(2);
+        this.add.text(425, 665, "'Curry'", {fontSize: '20px', fill: '#fff'}).setOrigin(0.5);
+        this.add.text(605, 626.5, "Flaming hot curry\n\ncauses fiery,\n\npropelling diarrhea", {fontSize: '20px', fill: '#fff'}).setOrigin(0.5);
         
         const back = this.add.image(50, 50, 'backarrow').setScale(0.05);
         back.setInteractive();
