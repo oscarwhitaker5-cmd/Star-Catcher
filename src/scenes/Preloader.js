@@ -40,8 +40,10 @@ export class Preloader extends Phaser.Scene {
         this.load.image('backarrow', 'backArrow.png');
         this.load.image('downarrow', 'downArrow.png');
         this.load.image('uparrow', 'upArrow.png');
-        this.load.image('missile', 'missile.png');
+        this.load.image('curry', 'curry.png');
         this.load.image('dudefront', 'dudefront.png');
+        this.load.image('sky2', 'sky2.png');
+        this.load.image('zafirBoss', 'zafirBoss.png');
         this.load.spritesheet(
             'dude',
             'dude.png',
